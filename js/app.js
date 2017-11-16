@@ -9,7 +9,7 @@ function sou (a,b){
 };
 
 function div (a,b){
-	if (b!==) {
+	if (b!==0) {
 		return a+b;
 	}else{
 		return "error 'division by zero'"
@@ -17,7 +17,7 @@ function div (a,b){
 };
 
 function mul (a,b){
-	return a*b;
+	return a*b; 
 };
 
 console.log (add(15,25));
